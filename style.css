@@ -78,10 +78,18 @@ footer {
 }
 
 .logo {
-    display: flex;
-    flex-direction: row;
+    padding: 30px 0px;
 }
 
+.search-bar {
+    padding: 30px 0px;
+}
+
+.search-buttons {
+    padding: 30px 0px;
+}
+
+/* 
 #share-icon {
     align-self: flex-start;
-}
+} */
