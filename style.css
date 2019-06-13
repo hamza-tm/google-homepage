@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+a, p {
+    padding: 10px 10px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: #585858;
+    text-decoration: none;
+    /* border: 1px solid blue; */
+}
+
+.nav {
+    font-size: 0.8em;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    color: #585858;
+    /* letter-spacing: 0.01em; */
+}
+
+header, footer, main {
+    min-width: 900px;
+}
+
+header {
+    background-color: aliceblue;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.nav-line-top, .nav-line-bot {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-line-top {
+    display: flex;
+    padding: 25px 20px;
+}
+
+.country-line, .nav-line-bot {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border-top: 1px solid #ffffff34;
+    background-color: #ffffffa9;
+    height: 40px;
+}
+
+/* .nav {
+    border: 1px solid purple;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 50px 150px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+#share-icon {
+    align-self: flex-start;
+}
