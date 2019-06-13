@@ -18,6 +18,18 @@ header {
     background-color: aliceblue;
 }
 
+footer {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+.logo {
+    background-color: bisque;
+}
+
 /* Structural CSS */
 body {
     display: flex;
@@ -30,7 +42,6 @@ body {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
 }
 
 .nav-line-top, .nav-line-bot {
@@ -61,14 +72,12 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: lightgreen;
     padding: 50px 150px;
 }
 
 .logo {
     display: flex;
     flex-direction: row;
-    background-color: bisque;
 }
 
 #share-icon {
