@@ -21,7 +21,7 @@ a, p {
 }
 
 /* Purely for debugging */
-main {
+/* main {
     background-color: lightgreen;
 }
 
@@ -35,7 +35,7 @@ main {
 
 .search-buttons {
     background-color: rgb(253, 164, 54);
-}
+} */
 
 /* Structural CSS */
 
